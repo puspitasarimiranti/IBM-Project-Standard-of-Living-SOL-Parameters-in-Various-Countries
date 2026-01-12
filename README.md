@@ -4,15 +4,15 @@
 
 # Data Visualization with Python
 
-This is the Capstone Project for Course 9, _IBM Data Analyst Capstone Project_. Part of IBM's Data Analyst Professional Certificate from Coursera.
+This is the Final Project for Generative AI Course as a Part of IBM's Data Analyst Professional Certificate from Coursera.
 
-I take on the role of a Data Analyst with a global IT and Business Services firm that is known for its expertise in IT solutions and its team of highly experienced IT consultants. In this role, I will be analyzing several datasets to help identify trends for emerging technologies. To keep pace with changing technologies and remain competitive, our organization regularly analyzes data to help identify future skill requirements.
+I take on the role as a Data Analyst  by a Healthcare consultancy firm which has been conducting a survey on the state of global happiness annually. The World Happiness Report offers valuable insights into factors influencing happiness across countries. The firm wants me to produce a report to find out whether there are demographic, regional, and/or economic characteristics that lead to a better life.
 
 As a Data Analyst, I will be assisting with this initiative and have been tasked with collecting data from various sources and identifying trends for this year's report on emerging skills.
 
 ### Task 1
 
-The first task is to collect data for the technology skills that are most in demand from various sources including job postings, blog posts, and surveys. I will begin by scraping internet websites and accessing APIs to collect data in various formats like .csv files, excel sheets, and databases.
+The first task is to collect data about the factors that influencing happiness across countries. I will begin by scraping internet websites and accessing APIs to collect data in various formats like .csv files, excel sheets, and databases.
 
 ### Task 2
 
@@ -20,15 +20,15 @@ Once I've collected enough data, I will take the collected data and prepare it f
 
 ### Task 3
 
-Now that the data is ready, I will apply statistical techniques to analyze the data and identify insights and trends like: What are the top programming languages that are in demand? What are the top database skills that are in demand? What are the most popular IDEs? And Demographic data like age and education level distribution of developers.
+Now that the data is ready, I will apply statistical techniques to analyze the data and identify insights and trends like: What are the influence of GDP per capita on heaLthy life expectancy? What are the influence of GDP per capita on happiness score? What are the correlation between happiness factor vs happiness score?
 
 ### Task 4
 
-In the fourth task, I'll focus on choosing appropriate visualizations based on the data I want to present using charts, plots, and histograms to help reveal my findings and trends. I am going to access the Data from an SQL database and pull only the data I need into DataFrames.
+In the fourth task, I'll focus on choosing appropriate visualizations based on the data I want to present using charts, plots, and histograms to help reveal my findings and trends. 
 
 ### Task 5
 
-For task 5, I will employ Cognos to create interactive dashboards to help analyze and present the data dynamically.
+For task 5, I will employ Jupyter Notebook to create interactive dashboards to help analyze and present the data dynamically.
 
 ### Task 6
 
@@ -49,13 +49,11 @@ For the final task, I will use my storytelling skills to provide a narrative and
 
 ## Data Description
 
-Stack Overflow, a popular website for developers, conducted an online survey of software professionals across the world. The survey data was later open sourced by Stack Overflow. The actual data set has around 49,000+ responses from 177 countries across 62 questions.
+The World Happiness Report is a landmark survey of the state of global happiness. The reports review the state of happiness in the world today and show how the new science of happiness explains personal and national variations in happiness. This is a public dataset available on the Kaggle website as World Happiness Report under the CC0: Public Domain license.
 
-The dataset I am going to use comes from the following source: https://survey.stackoverflow.co/ under a ODbL: Open Database License.
+The dataset I am going to use comes from the following source: https://www.kaggle.com/datasets/unsdsn/world-happiness/data under a CCO: Public Domain License.
 
-I will be given a subset of the original data set in this capstone project. We will explore, analyze, and visualize this dataset and present my analysis.
-
-Note: This randomised subset contains around 1/10th of the original data set. Any conclusions we draw after analyzing this subset may not reflect the real world scenario.
+I will be given a subset of the original data set in this capstone project. I will explore, analyze, and visualize this dataset and present my analysis.
 
 The dataset is available as a .csv file here.
 
