@@ -70,51 +70,51 @@ The below table lists the questions asked in the survey and the column under whi
   </thead>
   <tbody>
     <tr>
-      <td>ResponseId</td>
+      <td>Country</td>
       <td>
-        Randomized respondent ID number.
+        Name of the country.
       </td>
     </tr>
     <tr>
-      <td>MainBranch</td>
+      <td>Region</td>
       <td>
-        Which of the following options best describes you today? 
+        Region the country belongs to 
       </td>
     </tr>
     <tr>
-      <td>Age</td>
-      <td>What is your age?</td>
+      <td>Happiness Score</td>
+      <td>A metric measured in 2016 by asking the sampled people the question: "How would you rate your happiness?"</td>
     </tr>
     <tr>
-      <td>Employment</td>
-      <td>What is your current employment status?</td>
+      <td>Happiness Rank</td>
+      <td>Rank of the country based on the Happiness Score</td>
     </tr>
     <tr>
-      <td>RemoteWork</td>
-      <td>How often do you work remotely?</td>
+      <td>Lower Confidence Interval/td>
+      <td>Lower confidence interval of the Happiness Score</td>
     </tr>
     <tr>
-      <td>Check</td>
+      <td>Upper Confidence Interval</td>
       <td>
-        Check Various verification or check questions related to survey consistency.
+        Upper confidence interval of the Happiness Score.
       </td>
     </tr>
     <tr>
-      <td>CodingActivities</td>
+      <td>Economy (GDP per Capita)</td>
       <td>
-          What coding activities do you engage in (hobby, professional, and open-source contributions)?
+          The extent to which GDP contributes to the calculation of the Happiness Score
       </td>
     </tr>
     <tr>
-      <td>EdLevel</td>
+      <td>Family</td>
       <td>
-        What is the highest level of formal education you have completed?
+        The extent to which family contributes to the calculation of the Happiness Score
       </td>
     </tr>
     <tr>
-      <td>LearnCode</td>
+      <td>Health (Life Expectancy)</td>
       <td>
-        How did you learn to code?
+        The extent to which life expectancy contributes to the calculation of the Happiness Score
       </td>
     </tr>
     <tr>
@@ -122,210 +122,26 @@ The below table lists the questions asked in the survey and the column under whi
       <td>Have you used online resources to learn coding?</td>
     </tr>
     <tr>
-      <td>TechDoc</td>
+      <td>Freedom</td>
       <td>
-        How do you use technical documentation?
+        The extent to which freedom contributes to the calculation of the Happiness Score
       </td>
     </tr>
     <tr>
-      <td>YearsCode</td>
+      <td>Trust (Government Corruption)</td>
       <td>
-        How many years have you been coding?
+        The extent to which trust contributes to the calculation of the Happiness Score
       </td>
     </tr>
     <tr>
-      <td>YearsCodePro</td>
+      <td>Generosity</td>
       <td>
-        How many years have you coded professionally?
+        The extent to which generosity contributes to the calculation of the Happiness Score
       </td>
     </tr>
     <tr>
-      <td>DevType</td>
-      <td>What is your role or type of development work you do?</td>
-    </tr>
-    <tr>
-      <td>OrgSize</td>
-      <td>
-        What is the size of the organization you work for?
-      </td>
-    </tr>
-    <tr>
-      <td>PurchaseInfluence</td>
-      <td>
-        How much influence do you have on purchasing technology at your company?
-      </td>
-    </tr>
-    <tr>
-      <td>BuyNewTool</td>
-      <td>How does your company decide whether to buy new tools or technology?</td>
-    </tr>
-    <tr>
-      <td>BuildvsBuy</td>
-      <td>
-        Does your company prefer to build or buy software?
-      </td>
-    </tr>
-    <tr>
-      <td>TechEndorse</td>
-      <td>Do you endorse any specific technologies at your company?</td>
-    </tr>
-    <tr>
-      <td>Country</td>
-      <td>In which country do you reside?</td>
-    </tr>
-    <tr>
-      <td>Currency</td>
-      <td>Which currency do you use day-to-day?</td>
-    </tr>
-    <tr>
-      <td>CompTotal</td>
-      <td>
-        What is your current total compensation (salary, bonuses, and so on)?
-      </td>
-    </tr>
-    <tr>
-      <td>LanguageHaveWorkedWith</td>
-      <td>Which programming languages have you worked with in the past year?</td>
-    </tr>
-    <tr>
-      <td>LanguageWantToWorkWith</td>
-      <td>
-        Which programming languages do you want to work with in the future?
-      </td>
-    </tr>
-    <tr>
-      <td>LanguageAdmired</td>
-      <td>Which programming languages do you admire most?</td>
-    </tr>
-    <tr>
-      <td>DatabaseHaveWorkedWith</td>
-      <td>
-        Which database technologies have you worked with in the past year?
-      </td>
-    </tr>
-    <tr>
-      <td>DatabaseWantToWorkWith</td>
-      <td>
-        Which database technologies do you want to work with in the future?
-      </td>
-    </tr>
-    <tr>
-      <td>DatabaseAdmired</td>
-      <td>
-        Which database technologies do you admire most?
-      </td>
-    </tr>
-    <tr>
-      <td>PlatformHaveWorkedWith</td>
-      <td>
-        Which platforms have you worked with in the past year?
-      </td>
-    </tr>
-    <tr>
-      <td>PlatformWantToWorkWith</td>
-      <td>
-        Which platforms do you want to work with in the future?
-      </td>
-    </tr>
-    <tr>
-      <td>PlatformAdmired</td>
-      <td>Which platforms do you admire most?</td>
-    </tr>
-    <tr>
-      <td>WebframeHaveWorkedWith</td>
-      <td>
-        Which web frameworks have you worked with in the past year?
-      </td>
-    </tr>
-    <tr>
-      <td>WebframeWantToWorkWith</td>
-      <td>Which web frameworks do you want to work with in the future?</td>
-    </tr>
-    <tr>
-      <td>WebframeAdmired</td>
-      <td>Which web frameworks do you admire most?</td>
-    </tr>
-    <tr>
-      <td>EmbeddedHaveWorkedWith</td>
-      <td>
-        Which embedded systems have you worked with in the past year?
-      </td>
-    </tr>
-    <tr>
-      <td>EmbeddedWantToWorkWith</td>
-      <td>Which embedded systems do you want to work with in the future?</td>
-    </tr>
-    <tr>
-      <td>EmbeddedAdmired</td>
-      <td>Which embedded systems do you admire most?</td>
-    </tr>
-    <tr>
-      <td>MiscTechHaveWorkedWith</td>
-      <td>
-        Which miscellaneous technologies have you worked with in the past year?
-      </td>
-    </tr>
-    <tr>
-      <td>MiscTechWantToWorkWith</td>
-      <td>Which miscellaneous technologies do you want to work with in the future?</td>
-    </tr>
-    <tr>
-      <td>MiscTechAdmired</td>
-      <td>Which miscellaneous technologies do you admire most?</td>
-    </tr>
-    <tr>
-      <td>OpSysPersonal</td>
-      <td>
-        What operating systems do you use for personal tasks?
-      </td>
-    </tr>
-    <tr>
-      <td>OpSysProfessional</td>
-      <td>
-        What operating systems do you use for professional tasks?
-      </td>
-    </tr>
-    <tr>
-      <td>SOVisitFreq</td>
-      <td>
-        How frequently do you visit Stack Overflow?
-      </td>
-    </tr>
-    <tr>
-      <td>SOAccount</td>
-      <td>
-        Do you have a Stack Overflow account?
-      </td>
-    </tr>
-    <tr>
-      <td>SOPartFreq</td>
-      <td>
-        How often do you participate in Q&A on Stack Overflow?
-      </td>
-    </tr>
-    <tr>
-      <td>AISelect</td>
-      <td>
-        How do you feel about artificial intelligence tools for development?
-      </td>
-    </tr>
-    <tr>
-      <td>AIBen</td>
-      <td>
-        What benefits have you experienced from using AI tools?
-      </td>
-    </tr>
-    <tr>
-      <td>AIChallenges</td>
-      <td>
-        What challenges have you faced while using AI tools?
-      </td>
-    </tr>
-    <tr>
-      <td>JobSat</td>
-      <td>
-        How satisfied are you with your current job?
-      </td>
+      <td>Dystopia Residual</td>
+      <td>Dystopia is an imaginary country that has the world's least-happy people. The residuals, or unexplained components, differ for each country, reflecting the extent to which the six variables either over- or under-explain average 2014-2016 life evaluations. These residuals have an average value of approximately zero over the whole set of countries.</td>
     </tr>
   </tbody>
 </table>
