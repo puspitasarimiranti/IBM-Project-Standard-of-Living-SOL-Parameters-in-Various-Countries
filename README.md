@@ -12,7 +12,7 @@ As a Data Analyst, I will be assisting with this initiative and have been tasked
 
 ### Task 1
 
-The first task is to collect data about the factors that influencing happiness across countries. I will begin by scraping internet websites and accessing APIs to collect data in various formats like .csv files, excel sheets, and databases.
+The first task is to collect data about the factors that influencing happiness across countries. 
 
 ### Task 2
 
@@ -164,7 +164,6 @@ The below table lists the questions asked in the survey and the column under whi
 
 ### Task 1: Data Collection
 
-- [x] Collecting Data Using APIs
 - [x] Collecting Data Using Web Scraping
 - [x] Exploring Data
 
